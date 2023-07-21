@@ -1,0 +1,29 @@
+---
+compiled_package_info:
+  package_name: overmind_test_contract
+  address_alias_instantiation:
+    Extensions: "0000000000000000000000000000000000000000000000000000000000000001"
+    aptos_framework: "0000000000000000000000000000000000000000000000000000000000000001"
+    aptos_std: "0000000000000000000000000000000000000000000000000000000000000001"
+    aptos_token: "0000000000000000000000000000000000000000000000000000000000000003"
+    core_resources: 000000000000000000000000000000000000000000000000000000000a550c18
+    std: "0000000000000000000000000000000000000000000000000000000000000001"
+    todolist_addr: 6059daea60c3856afe108bd91bd414221bcf455c41f50e12dee3cc66736085c1
+    vm_reserved: "0000000000000000000000000000000000000000000000000000000000000000"
+  source_digest: 664E0B9A83D5CF2F69623E351D911CB484BDC3BDAA7FB150B3B79FB5739A0C5D
+  build_flags:
+    dev_mode: false
+    test_mode: false
+    generate_docs: false
+    generate_abis: false
+    install_dir: ~
+    force_recompilation: false
+    additional_named_addresses: {}
+    architecture: ~
+    fetch_deps_only: false
+    skip_fetch_latest_git_deps: false
+    bytecode_version: ~
+dependencies:
+  - AptosFramework
+  - AptosStdlib
+  - MoveStdlib

@@ -1,0 +1,15 @@
+[package]
+name = 'overmind_test_contract'
+version = '1.0.0'
+authors = []
+
+[addresses]
+todolist_addr='6059daea60c3856afe108bd91bd414221bcf455c41f50e12dee3cc66736085c1'
+
+[dev-addresses]
+[dependencies.AptosFramework]
+git = 'https://github.com/aptos-labs/aptos-core.git'
+rev = 'mainnet'
+subdir = 'aptos-move/framework/aptos-framework'
+
+[dev-dependencies]
